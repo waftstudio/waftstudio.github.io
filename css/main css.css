@@ -546,7 +546,8 @@ button:hover {
 
 .contact-grid {
   margin: 30px 0 30px 0;
-  width: 50%;
+  width: 75%;
+  padding: 20px 40px 10px 40px;
   max-width: 950px;
   display: grid;
   grid-template-areas: "contact1 contact2"
