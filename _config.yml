@@ -1,6 +1,0 @@
-- name: Set Timezone
-    uses: szenius/set-timezone@v1.0
-    with:
-      timezoneLinux: "Asia/Saigon"
-      timezoneMacos: "Asia/Saigon"
-      timezoneWindows: "Indochina Time"
