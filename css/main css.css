@@ -421,6 +421,10 @@ button:hover {
   letter-spacing: 1.5rem;
 }
 
+.title:hover{
+  color:red;
+}
+
 .subtitle {
   font-family: flat-light, verdana, sans-serif;
   color: #ddd;
