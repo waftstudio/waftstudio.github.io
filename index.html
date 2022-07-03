@@ -16,6 +16,10 @@
 
 <body>
   <div class="container">
+    <div class="about" id="about">
+      <p><span class="subtitle">ABOUT</span></p>
+      <img src="svg/x.svg" alt="close about" onclick="exitabout()">
+    </div>
     <div class="sns">
       <a target="_blank" href="https://www.facebook.com/Waft-Studio-108321521922098">
         <img src="./img/sns/facebook.svg" alt="facebook link">
@@ -33,7 +37,7 @@
     <div class="section sec1">
       <div class="main-menu" id="fixedmenu">
         <div class="main-menu-item">
-          <a href="#">ABOUT</a>
+          <a href="javascript:openabout()">ABOUT</a>
         </div>
         <div class="main-menu-item">
           <a href="#project">PROJECT</a>
@@ -62,11 +66,12 @@
     <div class="section sec2" id="project">
       <p><span class="section-title subtitle">OUR PROJECTS</span></p>
       <div class="filter" id="filter">
-        <button name="category" type="button" onclick="window.open('./page/animation.html', '_blank')" class="filter-all">MODEL</button>
+        <button name="category" type="button" onclick="window.open('./page/model.html', '_blank')" class="filter-all">MODEL</button>
         <button name="category" type="button" onclick="window.open('./page/animation.html', '_blank')" class="filter-all">ANIMATION</button>
-        <button name="category" type="button" onclick="window.open('./page/animation.html', '_blank')" class="filter-all">ENVIRONMENT</button>
-        <button name="category" type="button" onclick="window.open('./page/animation.html', '_blank')" class="filter-all">COMMERCIAL</button>
-        <button name="category" type="button" onclick="window.open('./page/animation.html', '_blank')" class="filter-all">GRAPHIC</button>
+        <button name="category" type="button" onclick="window.open('./page/environment.html', '_blank')" class="filter-all">ENVIRONMENT</button>
+        <button name="category" type="button" onclick="window.open('./page/commercial.html', '_blank')" class="filter-all">COMMERCIAL</button>
+        <button name="category" type="button" onclick="window.open('./page/archviz.html', '_blank')" class="filter-all">ARCHVIZ</button>
+        <button name="category" type="button" onclick="window.open('./page/graphic.html', '_blank')" class="filter-all">GRAPHIC</button>
       </div>
       <div class="project-wrapper">
         <a href="#">
@@ -103,36 +108,20 @@
         </a>
         <a href="#">
           <div class="project" id="proj5">
+            <p><span class="title">ARCHVIZ</span>
+              <br>
+              <span class="subtitle"></span>
+            </p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="project" id="proj6">
             <p><span class="title">GRAPHIC</span>
               <br>
               <span class="subtitle"></span>
             </p>
           </div>
         </a>
-        <!-- <a href="#">
-          <div class="project" id="proj2">
-            <p><span class="title"></span>
-              <br>
-              <span class="subtitle">3D, HARD-SURFACE, STYLIZED</span>
-            </p>
-          </div>
-        </a>
-        <a href="#">
-          <div class="project" id="proj3">
-            <p><span class="title">CHASE</span>
-              <br>
-              <span class="subtitle">3D, ANIMATION</span>
-            </p>
-          </div>
-        </a>
-        <a href="#">
-          <div class="project" id="proj4">
-            <p><span class="title">SKADI NP</span>
-              <br>
-              <span class="subtitle">3D, ANIME</span>
-            </p>
-          </div>
-        </a> -->
       </div>
     </div>
     <div class="section sec3" id="client">
@@ -197,6 +186,15 @@
   </script>
   <script>
     function category() { }
+  </script>
+  <script>
+  // const aboutdisplay = getElementById('about').style.display;
+    function openabout(){
+      getElementById('about').style.display = 'flex';
+    }
+    function exitabout(){
+        getElementById('about').style.display = 'none';
+    }
   </script>
 </body>
 

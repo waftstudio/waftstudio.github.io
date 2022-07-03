@@ -53,7 +53,7 @@ header {
   padding: 0;
   margin: 0 auto;
   background-color: var(--bg-color);
-  color: #595959;
+  color: #bbb;
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
   font-family: century-gothic, Verdana, sans-serif;
@@ -104,6 +104,41 @@ a {
   display: grid;
   grid-template-columns: 100vw;
   place-items: start center;
+}
+
+/* ABOUT */
+
+.about{
+  width: 80vw;
+  height: 500px;
+  z-index: 1000;
+  display:none;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position:fixed;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius:10px;
+}
+
+.about img{
+  width: 50px;
+  height: 50px;
+  position:absolute;
+  right: 5vw;
+  top: 5vw;
+  border-radius:10px;
+  background-color: transparent;
+  transition: all .5s ease;
+}
+
+.about img:hover{
+  background:var(--accent-color);
 }
 
 /* SNS */
@@ -422,7 +457,7 @@ button:hover {
 }
 
 .title:hover{
-  color:red;
+  color:var(--accent-color);
 }
 
 .subtitle {
@@ -437,13 +472,13 @@ button:hover {
 #proj1 {
   background: url("../img/project/proj1.jpg") no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0 -40px;
 }
 
 #proj2 {
   background: url("../img/project/proj2.jpg") no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: 0 -80px;
 
 }
 
@@ -456,8 +491,20 @@ button:hover {
 #proj4 {
   background: url("../img/project/proj4.jpg") no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: center;
 
+}
+
+#proj5 {
+  background: url("../img/project/proj5.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#proj6 {
+  background: url("../img/project/proj6.png") no-repeat;
+  background-size: cover;
+  background-position: 0 -200px;
 }
 
 .sec3 {
