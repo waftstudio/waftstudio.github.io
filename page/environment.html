@@ -36,11 +36,9 @@
         <div class="main-menu-item">
           <a href="#project">PROJECT</a>
         </div>
-        <div class="main-menu-item">
-          <div class="main-logo">
-            <img src="../svg/waft_symbol_w.svg" alt="logo" class="waft-logo">
-          </div>
-        </div>
+        <div class="main-menu-item main-logo">
+          <img src="../svg/waft_symbol_w.svg" alt="logo" class="waft-logo">
+      </div>
         <div class="main-menu-item">
           <a href="#client">CLIENT</a>
         </div>
@@ -155,6 +153,17 @@
   </div>
   </div>
   <script>
+    window.onload() = function () {
+      const fmenu = document.getElementById('fixedmenu');
+      var y = window.innerHeight - 150;
+      if (window.pageYOffset >= y) {
+        fmenu.style.backgroundColor = "rgba(17,17,17,1)";
+      }
+      else {
+        fmenu.style.backgroundColor = "rgba(17,17,17,.2)";
+      }
+    };
+    
     window.onscroll = function () {
       const fmenu = document.getElementById('fixedmenu');
       var y = window.innerHeight - 150;
