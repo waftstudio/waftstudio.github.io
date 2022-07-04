@@ -14,10 +14,7 @@
 
 <body>
   <div class="container">
-    <div class="about" id="about">
-      <p><span class="subtitle">ABOUT</span></p>
-      <img src="svg/x.svg" alt="close about" onclick="exitabout()">
-    </div>
+    <!-- <iframe class="about-iframe" src="./about/about.html" frameborder="0"></iframe> -->
     <div class="sns">
       <a target="_blank" href="https://www.facebook.com/Waft-Studio-108321521922098">
         <img src="./img/sns/facebook.svg" alt="facebook link">
@@ -198,7 +195,7 @@
         fmenu.style.backgroundColor = "rgba(17,17,17,.2)";
       }
     };
-    
+
     window.onscroll = function () {
       const fmenu = document.getElementById('fixedmenu');
       var y = window.innerHeight - 150;
