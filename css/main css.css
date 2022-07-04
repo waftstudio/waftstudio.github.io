@@ -367,7 +367,7 @@ a {
 .filter-all {
   outline: 1px solid #333;
   outline-offset: -1px;
-  transition: all .5s ease;
+  transition: all .35s ease;
 }
 .filter-all:hover{
   outline: 1px solid var(--accent-color);
@@ -377,6 +377,12 @@ a {
   background-color: var(--accent-color)!important;
   color:black!important;
   outline: 1px solid var(--accent-color);
+}
+
+.filter-active:hover{
+  background-color: black!important;
+  color: var(--accent-color)!important;
+  outline: 1px solid var(--accent-color)!important;
 }
 
 button[name=category] {
