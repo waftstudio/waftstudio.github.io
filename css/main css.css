@@ -192,6 +192,10 @@ a {
   /* font-family: flat-regular, Verdana, sans-serif; */
 }
 
+.subsection{
+  height: 100px;
+}
+
 .sec1 {
   height: 100vh;
   background: url("../img/hero-content.jpg") no-repeat center;
@@ -369,6 +373,12 @@ a {
   outline: 1px solid var(--accent-color);
 }
 
+.filter-active{
+  background-color: var(--accent-color)!important;
+  color:black!important;
+  outline: 1px solid var(--accent-color);
+}
+
 button[name=category] {
   display: inline-block;
   background: none;
@@ -521,7 +531,8 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius:10px;
+  border-radius:5px;
+  background-color: #ddd;
 }
 
 .client-grid img {
@@ -681,13 +692,23 @@ input[name=contact-input] {
   background-color: #090909;
 }
 
+.sec5:hover{
+  background-color: black;
+}
+
 .sec5>p {
   letter-spacing: 0.3rem;
   background: transparent;
 }
 
 .sec5>p span {
+  color:#808080;
+  font-weight: bold;
   background: transparent;
+}
+
+.sec5:hover>p span{
+  color:var(--accent-color);
 }
 
 .line {
@@ -695,6 +716,11 @@ input[name=contact-input] {
   height: 1px;
   width: 50px;
   background-color: var(--accent-color);
+  transition: all .35s ease;
+}
+
+.sec5:hover>.line{
+  width:150px;
 }
 
 .content-text {
