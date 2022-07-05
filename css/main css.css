@@ -108,6 +108,64 @@ a {
 
 /* ABOUT */
 
+.about-container{
+  width:100vw;
+  height:100vh;
+  background-color: rgba(0, 0, 0, .9);
+  display: none; /*affect by JS*/
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  position:fixed;
+  border: 1px solid red;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  height:80vh;
+  border-radius: 15px;
+  outline: 2px solid #ddd;
+  transition: all .35s ease;
+}
+
+.about:hover{
+  outline: 2px solid white;
+}
+
+@media screen and (max-width: 1000px){
+  .about{
+    width:95%;
+  }
+}
+
+.about-container p{
+  background-color: transparent;
+}
+
+.dismiss{
+  font-size: 1.2rem;
+  letter-spacing: 5px;
+  font-style: italic;
+  color: #808080;
+  transition: all .35s ease;
+  display: block;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  background-color: transparent;
+}
+
+.dismiss:hover{
+  cursor: pointer;
+  color: rgba(240,201,26,1);
+}
+
 /* iframe{
   background:none transparent;
 }

@@ -16,7 +16,10 @@
 
 <body>
   <div class="container">
-    <!-- <iframe class="about-iframe" src="./about/about.html" frameborder="0"></iframe> -->
+    <div class="about-container" id="about-container-id" onclick="exitabout()">
+      <iframe class="about" src="./about/about.html" frameborder="0"></iframe>
+      <p><span class="dismiss" onclick="exitabout()">(click here to close)</span></p>
+    </div>
     <div class="sns">
       <a target="_blank" href="https://www.facebook.com/Waft-Studio-108321521922098">
         <img src="./img/sns/facebook.svg" alt="facebook link">

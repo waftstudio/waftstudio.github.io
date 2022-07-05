@@ -20,11 +20,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     fmenu.style.backgroundColor = "rgba(17,17,17,0.4)";
   }
 });
-/*ABOUT POP-UP*/
-// const aboutdisplay = getElementById('about').style.display;
-function openabout(){
-  getElementById('about').style.display = 'flex';
+
+/*OPEN AND CLOSE ABOUT POPUP*/
+function exitabout() {
+  document.getElementById("about-container-id").style.display = "none";
 }
-function exitabout(){
-    getElementById('about').style.display = 'none';
+
+function openabout() {
+  document.getElementById("about-container-id").style.display = "flex";
 }
