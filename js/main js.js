@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   const fmenu = document.getElementById('fixedmenu');
   var y = window.innerHeight - 150;
   if (window.pageYOffset >= y) {
-    fmenu.style.backgroundColor = "rgba(17,17,17,1)";
+    fmenu.style.backgroundColor = "rgba(0,0,0,1)";
   }
   else {
     fmenu.style.backgroundColor = "rgba(17,17,17,0.4)";
