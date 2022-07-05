@@ -10,6 +10,8 @@
   <link rel="icon" type="image/x-icon" href="./ico/favicon.ico" />
   <!--css-->
   <link href="./css/main css.css" rel="stylesheet" type="text/css" />
+  <!--js-->
+  <script type="text/javascript" src="./js/main js.js"></script> 
 </head>
 
 <body>
@@ -52,7 +54,7 @@
         <img src="./svg/next.svg" alt="" class="next2">
       </a>
       <!-- <video autoplay muted loop id="hero-media">
-        <source src="./vid/intro.mp4" type="video/mp4">
+        <source src="./vid/intro.mp4" type="video/mp4" controls>
         Your browser does not support HTML5 video.
       </video> -->
     </div>
@@ -184,39 +186,6 @@
     </div>
   </a>
   </div>
-  <script> /*FIXED MENU BG DIM ON SCROLL*/
-    window.onscroll = function () {
-      const fmenu = document.getElementById('fixedmenu');
-      var y = window.innerHeight - 150;
-      if (window.pageYOffset >= y) {
-        fmenu.style.backgroundColor = "rgba(17,17,17,1)";
-      }
-      else {
-        fmenu.style.backgroundColor = "rgba(17,17,17,0.4)";
-      }
-    };
-  </script>
-  <script> /*FIXED MENU BG DIM ON LOAD*/
-    document.addEventListener("DOMContentLoaded", function(event) { 
-      const fmenu = document.getElementById('fixedmenu');
-      var y = window.innerHeight - 150;
-      if (window.pageYOffset >= y) {
-        fmenu.style.backgroundColor = "rgba(17,17,17,1)";
-      }
-      else {
-        fmenu.style.backgroundColor = "rgba(17,17,17,0.4)";
-      }
-    });
-  </script>
-  <script> /*ABOUT POP-UP*/
-  // const aboutdisplay = getElementById('about').style.display;
-    function openabout(){
-      getElementById('about').style.display = 'flex';
-    }
-    function exitabout(){
-        getElementById('about').style.display = 'none';
-    }
-  </script>
 </body>
 
 </html>
