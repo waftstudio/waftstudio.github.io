@@ -154,6 +154,8 @@ a {
   background-color: var(--accent-color);
 }
 
+/* SECTION */
+
 .section {
   width: 100vw;
   display: flex;
@@ -319,6 +321,7 @@ a {
   }
 }
 
+/* SEC2 */
 
 .sec2 {
   display: flex;
@@ -419,8 +422,6 @@ button:hover {
   }
 }
 
-
-
 .project p {
   text-align: left;
   flex: 1;
@@ -489,6 +490,8 @@ button:hover {
   background-position: 0 -200px;
 }
 
+/* SEC3 */
+
 .sec3 {
   height: auto;
   flex-direction: column;
@@ -525,6 +528,8 @@ button:hover {
   max-height: 60%;
   background-color: transparent;
 }
+
+/* SEC4 */
 
 .sec4 {
   display: flex;
@@ -649,8 +654,6 @@ input[name=contact-input] {
   color: white;
 }
 
-
-
 .contact-grid-item button {
   width: 30%;
   height: 40px;
@@ -667,6 +670,8 @@ input[name=contact-input] {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
+
+/* SEC5 */
 
 .sec5 {
   height: 5vh;
