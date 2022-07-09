@@ -389,18 +389,19 @@ a {
   align-items: flex-start;
 }
 
-.filter {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 50px;
-  flex-wrap: wrap;
+.filter{
+  display: grid;
+  width: 95%;
+  padding-bottom: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 10px;
 }
 
 @media screen and (min-width:1000px) {
   .filter {
-    width: 90vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -502,11 +503,11 @@ button:hover {
 
 .subtitle {
   font-family: flat-light, verdana, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #ddd;
   background-color: inherit;
   font-kerning: normal;
-  letter-spacing: .2rem;
+  letter-spacing: 3px;
   text-shadow: 1px 1px 0px #333;
 }
 

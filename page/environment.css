@@ -1,0 +1,29 @@
+#environment1 {
+    background: url("./environment/Chase/Port_WAFT2-15-2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #environment2 {
+    background: url("./environment/City/thumbnail.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #environment3 {
+    background: url("./environment/Department/uy-nguy-n-4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #environment4 {
+    background: url("./environment/Graphic/uy-nguy-n-0090.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #environment5 {
+    background: url("./environment/Stylize/1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
