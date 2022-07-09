@@ -441,6 +441,47 @@ button:hover {
 }
 
 
+.project-wrapper{
+  width: 95vw;
+  display:grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .project-wrapper {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .project-wrapper {
+    width: 2200px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.project-wrapper a{
+  width:100%;
+}
+
+.project {
+  width: 100%;
+  aspect-ratio: 3/1;
+  border: 1px solid var(--bg-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  filter: grayscale(15%) brightness(90%);
+}
+
+
+
+/* 
+
 .project-wrapper {
   display: flex;
   justify-content: center;
@@ -450,7 +491,6 @@ button:hover {
 
 .project {
   flex: 1;
-  /* width: clamp(100vw, 49.9vw, 49.95vw); */
   width: 100vw;
   aspect-ratio: 3/1;
   border: 1px solid var(--bg-color);
@@ -464,7 +504,7 @@ button:hover {
   .project {
     width: 50vw;
   }
-}
+} */
 
 .project:hover {
   animation: border-in .35s ease forwards;
