@@ -1,0 +1,16 @@
+.project-content {
+  width: 80%;
+  max-width: 1200px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.project-item {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
