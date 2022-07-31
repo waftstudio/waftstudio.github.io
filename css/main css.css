@@ -832,11 +832,11 @@ input[name=contact-input] {
 
 .page{
   flex-direction: column;
+  margin-top: 100px;
 }
 
 .page-item{
   width: 85vw;
-  border: 1px solid white;
 }
 
 .video-wrapper {
