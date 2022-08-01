@@ -112,8 +112,7 @@ a {
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, .9);
-  display: none;
-  /*affect by JS*/
+  display: none;  /*affected by js*/
   justify-content: center;
   align-items: center;
   z-index: 200;
@@ -839,11 +838,47 @@ input[name=contact-input] {
   width: 85vw;
 }
 
+.popup-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .9);
+  display: none;  /*affected by js*/
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+  position: fixed;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.popup-container p{
+  background-color: transparent;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  transition: all .35s ease;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 1200px) {
+  .popup {
+    width: 100%;
+  }
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
-  height: 0;
   overflow: hidden;
+  width:100%;
+  height: auto;
+  background-color: transparent;
 }
 
 .video-wrapper iframe {
