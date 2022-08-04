@@ -901,14 +901,49 @@ input[name=contact-input] {
   height: calc(100vh - 300px);
   padding: 50px 0 50px 0;
   background-color: transparent;
-
 }
 
 .image-wrapper img{
-  width: 100%;
-  max-width:1200px;
+  width: 1200px;
+  max-width:100%;
 }
 
 .submainmenu{
   background-color: #111!important;
 }
+
+.iframe-wrapper{
+  width: 1200px;
+}
+
+@media screen and (max-width: 1200px) {
+  .iframe-wrapper {
+    width: 100%;
+  }
+}
+
+.iframe{
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.iframe iframe{
+  position: absolute;
+  width: 100%;
+  height: 56.25%;
+  top:0;
+  left:0;
+}
+/* 
+<div class="image-wrapper">
+            <img src="./model" alt="">
+          </div>
+          
+          
+<div class="video-wrapper">
+            <iframe src="http://www.youtube.com/embed/eA9YcB4fyY4" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+          */
