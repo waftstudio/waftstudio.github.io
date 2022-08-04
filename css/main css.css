@@ -856,6 +856,7 @@ input[name=contact-input] {
 }
 
 .popup {
+  align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -904,8 +905,8 @@ input[name=contact-input] {
 }
 
 .image-wrapper img{
-  width: 1200px;
   max-width:100%;
+  max-height: 70vh;
 }
 
 .submainmenu{
@@ -942,6 +943,10 @@ input[name=contact-input] {
             <img src="./model" alt="">
           </div>
           
+          <div class="iframe-wrapper">
+              <div class="iframe">
+                <iframe src="//www.youtube.com/embed/eA9YcB4fyY4" frameborder="0" allowfullscreen=""></iframe>
+              </div>
           
 <div class="video-wrapper">
             <iframe src="http://www.youtube.com/embed/eA9YcB4fyY4" frameborder="0" allowfullscreen=""></iframe>
