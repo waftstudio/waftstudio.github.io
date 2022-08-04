@@ -30,7 +30,9 @@ function openabout() {
   document.getElementById("about-container-id").style.display = "flex";
 }
 
-/*OPEN AND CLOSE IFRAME*/
+/*OPEN AND CLOSE IFRAME POPUP*/
+
+//ANIM
 
 function exitanim1() {
   document.getElementById("anim1").style.display = "none";
@@ -134,4 +136,195 @@ function exitanim15() {
 }
 function openanim15() {
   document.getElementById("anim15").style.display = "flex";
+}
+
+// MODEL
+
+function exitmodel1() {
+  document.getElementById("popmodel1").style.display = "none";
+}
+function openmodel1() {
+  document.getElementById("popmodel1").style.display = "flex";
+}
+
+function exitmodel2() {
+  document.getElementById("popmodel2").style.display = "none";
+}
+function openmodel2() {
+  document.getElementById("popmodel2").style.display = "flex";
+}
+
+function exitmodel3() {
+  document.getElementById("popmodel3").style.display = "none";
+}
+function openmodel3() {
+  document.getElementById("popmodel3").style.display = "flex";
+}
+
+function exitmodel4() {
+  document.getElementById("popmodel4").style.display = "none";
+}
+function openmodel4() {
+  document.getElementById("popmodel4").style.display = "flex";
+}
+
+function exitmodel5() {
+  document.getElementById("popmodel5").style.display = "none";
+}
+function openmodel5() {
+  document.getElementById("popmodel5").style.display = "flex";
+}
+
+function exitmodel6() {
+  document.getElementById("popmodel6").style.display = "none";
+}
+function openmodel6() {
+  document.getElementById("popmodel6").style.display = "flex";
+}
+
+function exitmodel7() {
+  document.getElementById("popmodel7").style.display = "none";
+}
+function openmodel7() {
+  document.getElementById("popmodel7").style.display = "flex";
+}
+
+function exitmodel8() {
+  document.getElementById("popmodel8").style.display = "none";
+}
+function openmodel8() {
+  document.getElementById("popmodel8").style.display = "flex";
+}
+
+function exitmodel9() {
+  document.getElementById("popmodel9").style.display = "none";
+}
+function openmodel9() {
+  document.getElementById("popmodel9").style.display = "flex";
+}
+
+function exitmodel10() {
+  document.getElementById("popmodel10").style.display = "none";
+}
+function openmodel10() {
+  document.getElementById("popmodel10").style.display = "flex";
+}
+
+function exitmodel11() {
+  document.getElementById("popmodel11").style.display = "none";
+}
+function openmodel11() {
+  document.getElementById("popmodel11").style.display = "flex";
+}
+
+function exitmodel12() {
+  document.getElementById("popmodel12").style.display = "none";
+}
+function openmodel12() {
+  document.getElementById("popmodel12").style.display = "flex";
+}
+
+function exitmodel13() {
+  document.getElementById("popmodel13").style.display = "none";
+}
+function openmodel13() {
+  document.getElementById("popmodel13").style.display = "flex";
+}
+
+function exitmodel14() {
+  document.getElementById("popmodel14").style.display = "none";
+}
+function openmodel14() {
+  document.getElementById("popmodel14").style.display = "flex";
+}
+
+function exitmodel15() {
+  document.getElementById("popmodel15").style.display = "none";
+}
+function openmodel15() {
+  document.getElementById("popmodel15").style.display = "flex";
+}
+
+function exitmodel16() {
+  document.getElementById("popmodel16").style.display = "none";
+}
+function openmodel16() {
+  document.getElementById("popmodel16").style.display = "flex";
+}
+
+function exitmodel17() {
+  document.getElementById("popmodel17").style.display = "none";
+}
+function openmodel17() {
+  document.getElementById("popmodel17").style.display = "flex";
+}
+
+function exitmodel18() {
+  document.getElementById("popmodel18").style.display = "none";
+}
+function openmodel18() {
+  document.getElementById("popmodel18").style.display = "flex";
+}
+
+function exitmodel19() {
+  document.getElementById("popmodel19").style.display = "none";
+}
+function openmodel19() {
+  document.getElementById("popmodel19").style.display = "flex";
+}
+
+function exitmodel20() {
+  document.getElementById("popmodel20").style.display = "none";
+}
+function openmodel20() {
+  document.getElementById("popmodel20").style.display = "flex";
+}
+
+function exitmodel21() {
+  document.getElementById("popmodel21").style.display = "none";
+}
+function openmodel21() {
+  document.getElementById("popmodel21").style.display = "flex";
+}
+
+function exitmodel22() {
+  document.getElementById("popmodel22").style.display = "none";
+}
+function openmodel22() {
+  document.getElementById("popmodel22").style.display = "flex";
+}
+
+function exitmodel23() {
+  document.getElementById("popmodel23").style.display = "none";
+}
+function openmodel23() {
+  document.getElementById("popmodel23").style.display = "flex";
+}
+
+function exitmodel24() {
+  document.getElementById("popmodel24").style.display = "none";
+}
+function openmodel24() {
+  document.getElementById("popmodel24").style.display = "flex";
+}
+
+function exitmodel25() {
+  document.getElementById("popmodel25").style.display = "none";
+}
+function openmodel25() {
+  document.getElementById("popmodel25").style.display = "flex";
+}
+
+function exitmodel26() {
+  document.getElementById("popmodel26").style.display = "none";
+}
+function openmodel26() {
+  document.getElementById("popmodel26").style.display = "flex";
+}
+
+function exitmodel27() {
+  document.getElementById("popmodel27").style.display = "none";
+}
+function openmodel27() {
+  document.getElementById("popmodel27").style.display = "flex";
 }

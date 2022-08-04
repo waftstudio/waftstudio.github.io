@@ -861,9 +861,11 @@ input[name=contact-input] {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 1200px;
+  width: 85vw;
   transition: all .35s ease;
   background-color: transparent;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1200px) {
@@ -877,7 +879,7 @@ input[name=contact-input] {
   padding-bottom: 56.25%;
   overflow: hidden;
   width:100%;
-  height: 100%;
+  height: calc(100vh - 300px);
   background-color: transparent;
 }
 
@@ -886,5 +888,27 @@ input[name=contact-input] {
   top:0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 300px);
+}
+
+.image-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  height: calc(100vh - 300px);
+  padding: 50px 0 50px 0;
+  background-color: transparent;
+
+}
+
+.image-wrapper img{
+  width: 100%;
+  max-width:1200px;
+}
+
+.submainmenu{
+  background-color: #111!important;
 }
