@@ -438,3 +438,194 @@ function exitcommercial10() {
 function opencommercial10() {
   document.getElementById("popcommercial10").style.display = "flex";
 }
+
+// VISUAL
+
+function exitvisual1() {
+  document.getElementById("popvisual1").style.display = "none";
+}
+function openvisual1() {
+  document.getElementById("popvisual1").style.display = "flex";
+}
+
+function exitvisual2() {
+  document.getElementById("popvisual2").style.display = "none";
+}
+function openvisual2() {
+  document.getElementById("popvisual2").style.display = "flex";
+}
+
+function exitvisual3() {
+  document.getElementById("popvisual3").style.display = "none";
+}
+function openvisual3() {
+  document.getElementById("popvisual3").style.display = "flex";
+}
+
+function exitvisual4() {
+  document.getElementById("popvisual4").style.display = "none";
+}
+function openvisual4() {
+  document.getElementById("popvisual4").style.display = "flex";
+}
+
+function exitvisual5() {
+  document.getElementById("popvisual5").style.display = "none";
+}
+function openvisual5() {
+  document.getElementById("popvisual5").style.display = "flex";
+}
+
+function exitvisual6() {
+  document.getElementById("popvisual6").style.display = "none";
+}
+function openvisual6() {
+  document.getElementById("popvisual6").style.display = "flex";
+}
+
+function exitvisual7() {
+  document.getElementById("popvisual7").style.display = "none";
+}
+function openvisual7() {
+  document.getElementById("popvisual7").style.display = "flex";
+}
+
+function exitvisual8() {
+  document.getElementById("popvisual8").style.display = "none";
+}
+function openvisual8() {
+  document.getElementById("popvisual8").style.display = "flex";
+}
+
+function exitvisual9() {
+  document.getElementById("popvisual9").style.display = "none";
+}
+function openvisual9() {
+  document.getElementById("popvisual9").style.display = "flex";
+}
+
+function exitvisual10() {
+  document.getElementById("popvisual10").style.display = "none";
+}
+function openvisual10() {
+  document.getElementById("popvisual10").style.display = "flex";
+}
+
+function exitvisual11() {
+  document.getElementById("popvisual11").style.display = "none";
+}
+function openvisual11() {
+  document.getElementById("popvisual11").style.display = "flex";
+}
+
+function exitvisual12() {
+  document.getElementById("popvisual12").style.display = "none";
+}
+function openvisual12() {
+  document.getElementById("popvisual12").style.display = "flex";
+}
+
+function exitvisual13() {
+  document.getElementById("popvisual13").style.display = "none";
+}
+function openvisual13() {
+  document.getElementById("popvisual13").style.display = "flex";
+}
+
+function exitvisual14() {
+  document.getElementById("popvisual14").style.display = "none";
+}
+function openvisual14() {
+  document.getElementById("popvisual14").style.display = "flex";
+}
+
+function exitvisual15() {
+  document.getElementById("popvisual15").style.display = "none";
+}
+function openvisual15() {
+  document.getElementById("popvisual15").style.display = "flex";
+}
+
+function exitvisual16() {
+  document.getElementById("popvisual16").style.display = "none";
+}
+function openvisual16() {
+  document.getElementById("popvisual16").style.display = "flex";
+}
+
+function exitvisual17() {
+  document.getElementById("popvisual17").style.display = "none";
+}
+function openvisual17() {
+  document.getElementById("popvisual17").style.display = "flex";
+}
+
+function exitvisual18() {
+  document.getElementById("popvisual18").style.display = "none";
+}
+function openvisual18() {
+  document.getElementById("popvisual18").style.display = "flex";
+}
+
+function exitvisual19() {
+  document.getElementById("popvisual19").style.display = "none";
+}
+function openvisual19() {
+  document.getElementById("popvisual19").style.display = "flex";
+}
+
+function exitvisual20() {
+  document.getElementById("popvisual20").style.display = "none";
+}
+function openvisual20() {
+  document.getElementById("popvisual20").style.display = "flex";
+}
+
+function exitvisual21() {
+  document.getElementById("popvisual21").style.display = "none";
+}
+function openvisual21() {
+  document.getElementById("popvisual21").style.display = "flex";
+}
+
+function exitvisual22() {
+  document.getElementById("popvisual22").style.display = "none";
+}
+function openvisual22() {
+  document.getElementById("popvisual22").style.display = "flex";
+}
+
+function exitvisual23() {
+  document.getElementById("popvisual23").style.display = "none";
+}
+function openvisual23() {
+  document.getElementById("popvisual23").style.display = "flex";
+}
+
+function exitvisual24() {
+  document.getElementById("popvisual24").style.display = "none";
+}
+function openvisual24() {
+  document.getElementById("popvisual24").style.display = "flex";
+}
+
+function exitvisual25() {
+  document.getElementById("popvisual25").style.display = "none";
+}
+function openvisual25() {
+  document.getElementById("popvisual25").style.display = "flex";
+}
+
+function exitvisual26() {
+  document.getElementById("popvisual26").style.display = "none";
+}
+function openvisual26() {
+  document.getElementById("popvisual26").style.display = "flex";
+}
+
+function exitvisual27() {
+  document.getElementById("popvisual27").style.display = "none";
+}
+function openvisual27() {
+  document.getElementById("popvisual27").style.display = "flex";
+}
