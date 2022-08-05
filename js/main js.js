@@ -365,3 +365,76 @@ function exitenvironment5() {
 function openenvironment5() {
   document.getElementById("popenvironment5").style.display = "flex";
 }
+
+// COMMERICAL
+
+function exitcommercial1() {
+  document.getElementById("popcommercial1").style.display = "none";
+}
+function opencommercial1() {
+  document.getElementById("popcommercial1").style.display = "flex";
+}
+
+function exitcommercial2() {
+  document.getElementById("popcommercial2").style.display = "none";
+}
+function opencommercial2() {
+  document.getElementById("popcommercial2").style.display = "flex";
+}
+
+function exitcommercial3() {
+  document.getElementById("popcommercial3").style.display = "none";
+}
+function opencommercial3() {
+  document.getElementById("popcommercial3").style.display = "flex";
+}
+
+function exitcommercial4() {
+  document.getElementById("popcommercial4").style.display = "none";
+}
+function opencommercial4() {
+  document.getElementById("popcommercial4").style.display = "flex";
+}
+
+function exitcommercial5() {
+  document.getElementById("popcommercial5").style.display = "none";
+}
+function opencommercial5() {
+  document.getElementById("popcommercial5").style.display = "flex";
+}
+
+
+function exitcommercial6() {
+  document.getElementById("popcommercial6").style.display = "none";
+}
+function opencommercial6() {
+  document.getElementById("popcommercial6").style.display = "flex";
+}
+
+function exitcommercial7() {
+  document.getElementById("popcommercial7").style.display = "none";
+}
+function opencommercial7() {
+  document.getElementById("popcommercial7").style.display = "flex";
+}
+
+function exitcommercial8() {
+  document.getElementById("popcommercial8").style.display = "none";
+}
+function opencommercial8() {
+  document.getElementById("popcommercial8").style.display = "flex";
+}
+
+function exitcommercial9() {
+  document.getElementById("popcommercial9").style.display = "none";
+}
+function opencommercial9() {
+  document.getElementById("popcommercial9").style.display = "flex";
+}
+
+function exitcommercial10() {
+  document.getElementById("popcommercial10").style.display = "none";
+}
+function opencommercial10() {
+  document.getElementById("popcommercial10").style.display = "flex";
+}
