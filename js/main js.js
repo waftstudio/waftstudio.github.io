@@ -328,3 +328,40 @@ function exitmodel27() {
 function openmodel27() {
   document.getElementById("popmodel27").style.display = "flex";
 }
+
+// ENVIRONMENT
+
+function exitenvironment1() {
+  document.getElementById("popenvironment1").style.display = "none";
+}
+function openenvironment1() {
+  document.getElementById("popenvironment1").style.display = "flex";
+}
+
+function exitenvironment2() {
+  document.getElementById("popenvironment2").style.display = "none";
+}
+function openenvironment2() {
+  document.getElementById("popenvironment2").style.display = "flex";
+}
+
+function exitenvironment3() {
+  document.getElementById("popenvironment3").style.display = "none";
+}
+function openenvironment3() {
+  document.getElementById("popenvironment3").style.display = "flex";
+}
+
+function exitenvironment4() {
+  document.getElementById("popenvironment4").style.display = "none";
+}
+function openenvironment4() {
+  document.getElementById("popenvironment4").style.display = "flex";
+}
+
+function exitenvironment5() {
+  document.getElementById("popenvironment5").style.display = "none";
+}
+function openenvironment5() {
+  document.getElementById("popenvironment5").style.display = "flex";
+}
