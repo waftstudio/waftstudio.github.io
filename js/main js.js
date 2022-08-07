@@ -43,6 +43,7 @@ function openanim1() {
 
 function exitanim2() {
   document.getElementById("anim2").style.display = "none";
+  stopVideo();
 }
 function openanim2() {
   document.getElementById("anim2").style.display = "flex";
@@ -628,4 +629,30 @@ function exitvisual27() {
 }
 function openvisual27() {
   document.getElementById("popvisual27").style.display = "flex";
+}
+
+
+// STOP IFRAME VIDEO
+
+// function stopVideo(){
+// const videos = document.querySelectorAll('iframe');
+// const close = document.querySelector('.close');
+
+// close.addEventListener('click', () => {
+//    videos.forEach(i => {
+//       const source = i.src;
+//       i.src = '';
+//       i.src = source;
+//    });
+// });
+// }
+
+function closeVideo(){
+  const videos = document.querySelectorAll('iframe');
+  
+  videos.forEach(i => {
+        const source = i.src;
+        i.src = '';
+        i.src = source;
+     });
 }
