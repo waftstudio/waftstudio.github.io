@@ -401,7 +401,7 @@ a {
 
 @media screen and (min-width:1000px) {
   .filter {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
